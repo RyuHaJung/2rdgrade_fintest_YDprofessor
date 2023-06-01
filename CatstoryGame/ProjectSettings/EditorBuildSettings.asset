@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Text_001_Scene.unity
     guid: 14d5756782448bd44bed43732f33419e
   - enabled: 1
-    path: Assets/Scenes/Text_005_Scene.unity
+    path: Assets/Scenes/Text_002_Scene.unity
     guid: f69c861b8602b8c408c3899895c08362
   - enabled: 1
     path: Assets/Scenes/Mase_tostore.unity
