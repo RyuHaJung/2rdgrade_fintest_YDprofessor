@@ -17,10 +17,10 @@ MonoBehaviour:
     list:
     - index: 0
       selectAmount: 3
-      selectMain: "\uC120\uD0DD\uC9C0\uB97C \uACE0\uB974\uC138\uC694"
-      select_01: "\uC2DC\uB044\uB7EC\uC6CC"
-      select_02: "\uAEBC\uC838"
-      select_03: "\uC8FD\uC5B4\uB3C4 \uC2EB\uB2E4"
-      nextindex_01: 13
-      nextindex_02: 14
-      nextindex_03: 15
+      selectMain: sdf
+      select_01: sdf
+      select_02: sd
+      select_03: fs
+      nextindex_01: 15
+      nextindex_02: 16
+      nextindex_03: 17
