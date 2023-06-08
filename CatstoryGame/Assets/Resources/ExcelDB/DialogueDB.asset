@@ -787,7 +787,7 @@ MonoBehaviour:
       name: "\uCE58\uC988"
       dialogue: "\uBA00?(\uC5EC\uAE34?)"
       characterPath: Character/Cat1
-      BackGroundPath: BackGround/00007
+      BackGroundPath: BackGround/00001
       tweenType: 0
       nextindex: 76
       selectIndex: -100
@@ -827,7 +827,7 @@ MonoBehaviour:
       name: "\uCE58\uC988"
       dialogue: "\uBA00\uC544...(\uC7A0\uAE50 \uC878\uC558\uB2E4\uB0E5\u2026)"
       characterPath: Character/Cat1
-      BackGroundPath: None
+      BackGroundPath: BackGround/00007
       tweenType: 0
       nextindex: 80
       selectIndex: -100
