@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     float jumpForce = 680.0f;
     float walkForce = 30.0f;
     float maxWalkSpeed = 2.0f;
-    float threshold = 0.2f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,19 +22,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButton(0)&& this.rigid2D.velocity.y==0)
-        if(Input.GetMouseButton(0)&& this.rigid2D.velocity.y==0)
+        //if(Input.GetMouseButton(0)&& this.rigid2D.velocity.y==0)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0) && this.rigid2D.velocity.y == 0)
         {
-            //this.animator.SetTrigger("Jump");
+            this.animator.SetTrigger("JumpTrigger");
             this.rigid2D.AddForce(transform.up * this.jumpForce);
         }
 
         int key = 0;
-        //if (Input.GetKey(KeyCode.RightArrow)) key = 1;
-        //if (Input.GetKey(KeyCode.LeftArrow)) key = -1;
+        if (Input.GetKey(KeyCode.RightArrow)) key = 1;
+        if (Input.GetKey(KeyCode.LeftArrow)) key = -1;
 
-        if (Input.acceleration.x > this.threshold) key = 1;
-        if (Input.acceleration.x < this.threshold) key = -1;
+        //if (Input.acceleration.x > this.threshold) key = 1;
+        //if (Input.acceleration.x < this.threshold) key = -1;
 
         float speedx = Mathf.Abs(this.rigid2D.velocity.x);
 
@@ -60,13 +60,13 @@ public class PlayerController : MonoBehaviour
 
         if(transform.position.y< -10)
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("Cat_Cloud");
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("°ñ");
-        SceneManager.LoadScene("ClearScene");
+        SceneManager.LoadScene("Text_003_Scene");
     }
 }
