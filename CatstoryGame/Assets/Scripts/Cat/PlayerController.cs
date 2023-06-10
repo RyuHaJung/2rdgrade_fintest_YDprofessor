@@ -56,17 +56,12 @@ public class PlayerController : MonoBehaviour
         {
             this.animator.speed = 1.0f;
         }
-        
 
-        if(transform.position.y< -10)
+        if (transform.position.y < -10)
         {
-            SceneManager.LoadScene("Cat_Cloud");
+            SceneManager.LoadScene("Cat_Cloud test");
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log("°ñ");
-        SceneManager.LoadScene("Text_003_Scene");
-    }
+   
 }

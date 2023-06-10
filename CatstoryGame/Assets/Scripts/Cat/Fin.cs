@@ -18,10 +18,10 @@ public class Fin : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         finText.gameObject.SetActive(true);
-       
+      
 
         BackButton.gameObject.SetActive(true);
-        
+       
     }
 
     // Update is called once per frame
@@ -30,4 +30,3 @@ public class Fin : MonoBehaviour
 
     }
 }
-
