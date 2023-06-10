@@ -265,7 +265,7 @@ public class DialogSystem : MonoBehaviour
             DialogInit = false;
             dialogstate = DIALOGSTATE.DIALONGING;
         }
-        if (Input.GetMouseButtonDown(0) && dialogstate == DIALOGSTATE.DIALONGING)
+        if (Input.GetKeyDown(KeyCode.Q) && dialogstate == DIALOGSTATE.DIALONGING)
         {
             if (isTypingEffect == true)
             {

@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //if(Input.GetMouseButton(0)&& this.rigid2D.velocity.y==0)
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0) && this.rigid2D.velocity.y == 0)
+        if (Input.GetKeyDown(KeyCode.Space) && this.rigid2D.velocity.y == 0)
         {
             this.animator.SetTrigger("JumpTrigger");
             this.rigid2D.AddForce(transform.up * this.jumpForce);

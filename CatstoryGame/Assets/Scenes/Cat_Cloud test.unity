@@ -817,7 +817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &583356480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,8 +1060,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7952131654763723435, guid: a2507a341934e954e9b8cf9d649375a6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2507a341934e954e9b8cf9d649375a6, type: 3}
+--- !u!1 &1064104113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7952131654763723433, guid: a2507a341934e954e9b8cf9d649375a6, type: 3}
+  m_PrefabInstance: {fileID: 1064104112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1064104114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064104113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29d70ab02ba8e14ba4c37a2d3b10344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1094723061
 GameObject:
   m_ObjectHideFlags: 0
