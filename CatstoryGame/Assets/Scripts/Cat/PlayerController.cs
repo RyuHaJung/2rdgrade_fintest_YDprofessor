@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
         if (transform.position.y < -10)
         {
-            SceneManager.LoadScene("Cat_Cloud test");
+            SceneManager.LoadScene("Cat_Cloud");
         }
     }
 
