@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class CloudDestroyer : MonoBehaviour
 {
-    public float destroyDelay = 3f; // 사라지기까지의 지연 시간
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Cloud"))
-        {
-            Invoke("DestroyCloud", destroyDelay); // 일정 시간 후에 DestroyCloud() 메서드 호출
-        }
+        Destroy(gameObject);
+
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+
     }
 
-    private void DestroyCloud()
+    // Update is called once per frame
+    void Update()
     {
-        Destroy(gameObject); // 현재 스크립트가 연결된 구름 오브젝트를 파괴
+
     }
 }
