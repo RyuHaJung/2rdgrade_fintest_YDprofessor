@@ -7,9 +7,9 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rigid2D;
     Animator animator;
-    float jumpForce = 600.0f;
+    float jumpForce = 700.0f;
     float walkForce = 15.0f;
-    float maxWalkSpeed = 2.0f;
+    float maxWalkSpeed = 3.0f;
 
 
     // Start is called before the first frame update
